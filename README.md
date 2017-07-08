@@ -15,7 +15,7 @@
 
 ![src](/screenshots/src.png "src")
 ![build_generated_source.png](/screenshots/build_generated_source.png "build_generated_source")
-![hellomsg](/screenshots/hellomsg.png "hellomsg
+![hellomsg](/screenshots/hellomsg.png "hellomsg")
 ![hellomsg_java](/screenshots/hellomsg_java.png "hellomsg_java")
 ![iremoteservice](/screenshots/iremoteservice.png "iremoteservice")
 ![iremoteservice_java](/screenshots/iremoteservice_java.png "iremoteservice_java")
