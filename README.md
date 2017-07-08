@@ -11,5 +11,6 @@
 #### 5.aidl与IRemoteService.aidl同目录下新建HelloMsg.aidl文件，文件中只需要写入`package 包名`，`parcelable HelloMsg`，注意:`parcelable` 的`p`是小写。
 #### 6.再次Make Project。
 #### 7.java目录下新建一个service继承Service，本项目中命名为RemoteService，声明IRemoteService.Stub对象，重写onBind方法，用于向客户端返回Binder对象，至此服务端代码已经编写完成，不要忘记在AndroidManifest加上service标签。
-##项目结构如下所示
+## 项目结构如下所示
+
 ![src](/screenshots/src.png "src")
