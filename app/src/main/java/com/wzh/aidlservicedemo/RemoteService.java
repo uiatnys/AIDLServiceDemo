@@ -23,7 +23,7 @@ public class RemoteService extends Service {
         return super.onStartCommand(intent, flags, startId);
     }
 
-    IRemoteService mBinder = new IRemoteService.Stub() {
+    IRemoteService.Stub mBinder = new IRemoteService.Stub() {
         @Override
         public HelloMsg sayHello(String type) throws RemoteException {
             Log.e("==","IRemoteService.sayHello,service pid is"+Process.getThreadPriority(Process.myTid()));
